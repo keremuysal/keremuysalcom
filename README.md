@@ -92,4 +92,4 @@ Bana aşağıdaki platformlardan ulaşabilirsiniz:
 *   **Mail:** <info.keremuysal@gmail.com>
 *   **LinkedIn:** [https://www.linkedin.com/in/kerem-uysal-1b751519a/](https://www.linkedin.com/in/kerem-uysal-1b751519a/)
 *   **Twitter:** [https://twitter.com/keremuysaljpg](https://twitter.com/keremuysaljpg)
-*   **YouTube:** [https://www.youtube.com/keremuysal](https://www.youtube.com/keremuysal)""")
+*   **YouTube:** [https://www.youtube.com/keremuysal](https://www.youtube.com/keremuysal))
