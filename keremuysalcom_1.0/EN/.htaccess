@@ -1,0 +1,20 @@
+
+RewriteEngine on
+DirectoryIndex index.html
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^www\.keremuysal\.com$
+RewriteRule ^/?$ "https\:\/\/keremuysal\.com\/" [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+ErrorDocument 404 /error/not-found.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “ea-php81” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

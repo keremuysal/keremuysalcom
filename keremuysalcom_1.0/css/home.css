@@ -1,0 +1,148 @@
+/*.home {*/
+/*  min-height: 100vh;*/
+/*  background-image: url("../img/background.jpg");*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  padding: 15px;*/
+/*}*/
+
+.home{
+    background-image:url('../img/background.jpg');
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%; 
+    overflow: hidden;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.anasayfa-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.block {
+  flex: 0 0 75%;
+  max-width: 150%;
+  color: rgb(236, 241, 250);
+  padding-left: 35px;
+  border-left: 3px solid rgb(255, 0, 0);
+  margin-top: 150px;
+  width: 1000px;
+  float: left;
+}
+
+.block h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.block h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.block h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-btn {
+  padding-top: 20px;
+}
+
+.cv-btn a {
+  font-size: 14px;
+  color: rgb(236, 241, 250);
+  background-color: transparent;
+  border: 1px solid rgb(236, 241, 250);
+  border-radius: 4px;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.cv-btn a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.ayyildiz {
+  margin: 1em 10em;
+}
+
+.underline {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 0.875em;
+}
+
+.underline:hover {
+    text-decoration: white underline;
+   }
+
+   .social1 a {
+    height: 4em;
+    width: 4em;
+    background-color: #000;
+    display: inline;
+    border: 8px solid #000;
+    border-radius: 60px;
+    line-height: 3px;
+    text-align: center;
+    margin: 1px 1em 100 auto;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    color: #fa5b0f;
+    line-height: 1.8;
+    float: left;
+    padding: 1px 0.8px;
+
+  
+  }
+  
+  .social1 a:hover {
+    background-color: #000;
+    color: #ffffff;
+    float: left;
+  }
+  
+  .social1 a .fa {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .social1 a .fa:hover {
+    color: #000;
+  }
+  .textbox2 {
+    float: left;
+    margin: 0.9em;
+    color: #ffffff;
+    border: 2px solid #000;
+    background-color: #000;
+    opacity: 50;
+    border-radius: 5px;
+    font-size: 1.3em;
+  }
+  .textbox2:hover {
+    border-bottom:3px solid grey;
+  }
