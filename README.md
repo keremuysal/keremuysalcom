@@ -1,77 +1,40 @@
-# Kerem Uysal | Kişisel Web Sitesi
+# Kerem Uysal | Kişisel Web Sitesi (v3.0)
 
-Bu proje, Kerem Uysal'ın kişisel web sitesinin kaynak kodlarını içermektedir. Site, Kerem Uysal'ın biyografisi, eğitim geçmişi, projeleri, müzik portfolyosu ve blog yazılarını sergilemek amacıyla oluşturulmuştur.
+Bu proje, Kerem Uysal'ın kişisel web sitesinin kaynak kodlarını içermektedir. Site, Kerem Uysal'ın biyografisi, eğitim geçmişi, projeleri (Biyomühendislik, Gömülü Sistemler, Yazılım), müzik portfolyosu ve blog yazılarını sergilemek amacıyla modern web standartlarında oluşturulmuştur.
 
-**Canlı Demo:** [https://www.keremuysal.com/](https://www.keremuysal.com/)
+**Canlı Demo:** [https://keremuysal.com/](https://keremuysal.com/)
 
-## ✨ Öne Çıkan Özellikler
+---
 
-*   **Modern Tasarım:** Performans, SEO ve erişilebilirlik odaklı modern ve sade bir arayüz.
-*   **Çoklu Dil Desteği:** Türkçe (TR) ve İngilizce (EN) dil seçenekleri.
-*   **Karanlık/Aydınlık Mod:** Kullanıcı tercihine göre tema değiştirme özelliği.
-*   **Tamamen Duyarlı (Responsive):** Masaüstü, tablet ve mobil cihazlarla tam uyumlu.
+## ✨ Sürüm 3.0 Öne Çıkan Özellikler
+
+*   **Modern Tasarım & Tutarlı Tema:** Tüm sayfalarda (blog dahil) standart tasarım dili, açık ve koyu mod desteği, sayfa açılışında beyaz ekran parlamasını (FOUC) önleyen senkron tema motoru.
+*   **Tamamen Duyarlı (Responsive) Navigasyon:** Mobil, tablet ve masaüstü ekranlar için optimize edilmiş erişilebilir menü, entegre dil seçimi (`TR | EN`) ve ScrollSpy desteği.
+*   **Gelişmiş SEO & Sosyal Paylaşım:** Tüm sayfalarda Open Graph (OG), Twitter Card meta etiketleri ve Google Bilgi Grafiği için Schema.org `Person` JSON-LD yapısal verisi.
+*   **Modern Müzik Modalı:** Sayfa kaydırma konumunu kaybetmeden çalışan, ESC ve arkaplan tıklamasıyla kapanan modern popup sistemi.
+*   **Performans & Core Web Vitals:** Sıfır CLS (düzen kayması) için boyutlandırılmış WebP görselleri, CSS `@import` bağımlılığı kaldırılmış hızlı font yüklemesi.
 *   **Bölümler:**
-    *   **Anasayfa:** Genel karşılama ve sosyal medya linkleri.
-    *   **Hakkımda:** Detaylı biyografi ve ilgi alanları.
-    *   **Eğitim:** Eğitim geçmişi.
-    *   **Neler Yapıyorum?:** Katıldığı projeler ve çalışmalar.
-    *   **Müzik Portfolyo:** Yayınlanmış müzik çalışmalarını ve dinleme linklerini içerir.
-    *   **Blog:** Kişisel yazılar ve düşünceler.
-*   **Site Güncellemeleri:** Sitede yapılan değişikliklerin ve eklenen yeni özelliklerin listelendiği bir sayfa.
-*   **Ziyaretçi Sayacı:** Sitenin ziyaretçi sayısını gösteren bir sayaç entegrasyonu.
+    *   **Anasayfa (Hero):** Biyomühendislik, gömülü sistemler ve yazılım odaklı karşılama alanı.
+    *   **Hakkımda:** Biyografi, ilgi alanları ve doğrulanmış sosyal medya bağlantıları.
+    *   **Eğitim:** Bursa Teknik Üniversitesi, Bursa Erkek Lisesi, BİLSEM.
+    *   **Neler Yapıyorum?:** TÜBİTAK projeleri, eTwinning ve akademik makaleler.
+    *   **Müzik Portfolyo:** Yayınlanmış şarkılar ve doğrudan dinleme linkleri (Spotify, Apple Music, YouTube Music vb.).
+    *   **Blog:** Teknoloji, transistörler, Moore Yasası ve yapay zeka üzerine derinlemesine makaleler.
+    *   **Güncellemeler:** Sürüm geçmişi ve değişiklik günlükleri (changelog).
+
+---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-*   **HTML5:** Sayfaların iskelet yapısı.
-*   **CSS3:** Stil, tasarım ve animasyonlar.
-*   **JavaScript:** Dinamik işlevler (tema değiştirme, menü vb.).
-*   **Font Awesome:** İkon kütüphanesi.
+*   **HTML5:** Semantik, erişilebilir ve SEO dostu yapı.
+*   **CSS3:** CSS Değişkenleri, Flexbox, Grid, WCAG AA kontrast uyumu.
+*   **JavaScript (ES6+):** ScrollSpy, modal kontrolü, tema yönetimi, mobil menü.
+*   **Font Awesome 6:** İkonografi.
+*   **Google Fonts:** Montserrat & Lobster.
 
-## 🗂️ Dosya Yapısı
+---
 
-Sitenin ana dosyaları şunlardır:
-
-```
-├── .htaccess
-├── README.md
-├── robots.txt
-├── sitemap.xml
-├── index.html
-├── blog.html
-├── muzik.html
-├── updates.html
-├── merhabadunya.html
-├── merhabadunya2.html
-├── css/
-│   └── style.css
-├── docs/
-│   └── makale.pdf
-├── en/
-│   ├── index.html
-│   ├── blog.html
-│   ├── muzik.html
-│   ├── updates.html
-│   ├── merhabadunya.html
-│   └── merhabadunya2.html
-├── error/
-│   └── not-found.html
-├── img/
-│   ├── background.webp
-│   ├── galaktik.webp
-│   ├── portre.webp
-│   └── music/
-│       ├── aku.webp
-│       ├── beklenmeyen.webp
-│       ├── bursaerkeklisesimarsi.webp
-│       ├── ezhel.webp
-│       ├── flaremixtape.webp
-│       ├── tekbasina.webp
-│       └── yerlesikhayat.webp
-└── js/
-    └── app.js
-```
-
-## 🚀 Kurulum ve Kullanım
+## 🚀 Kurulum ve Yerel Önizleme
 
 Projeyi yerel makinenizde görüntülemek için:
 
@@ -83,13 +46,15 @@ Projeyi yerel makinenizde görüntülemek için:
     ```bash
     cd keremuysalcom
     ```
-3.  `index.html` dosyasını tarayıcınızda açarak siteyi görüntüleyin.
+3.  `keremuysalcom_3.0/index.html` dosyasını tarayıcınızda açın veya VS Code Live Server ile başlatın.
 
-## irtibata Geçin
+---
 
-Bana aşağıdaki platformlardan ulaşabilirsiniz:
+## 📬 İletişim
 
-*   **Mail:** <info.keremuysal@gmail.com>
-*   **LinkedIn:** [https://www.linkedin.com/in/kerem-uysal-1b751519a/](https://www.linkedin.com/in/kerem-uysal-1b751519a/)
-*   **Twitter:** [https://twitter.com/keremuysaljpg](https://twitter.com/keremuysaljpg)
-*   **YouTube:** [https://www.youtube.com/keremuysal](https://www.youtube.com/keremuysal)
+*   **Web:** [keremuysal.com](https://keremuysal.com)
+*   **E-Posta:** [info@keremuysal.com](mailto:info@keremuysal.com)
+*   **LinkedIn:** [linkedin.com/in/akeremuysal](https://www.linkedin.com/in/akeremuysal)
+*   **GitHub:** [github.com/keremuysal](https://github.com/keremuysal)
+*   **Twitter / X:** [twitter.com/keremuysaljpg](https://twitter.com/keremuysaljpg)
+*   **YouTube:** [youtube.com/keremuysal](https://www.youtube.com/keremuysal)

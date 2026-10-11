@@ -1,0 +1,147 @@
+/* ==========================================================================
+   Kerem Uysal | Blog Makale Stilleri (v3.0)
+   Okuma Deneyimi, Tipografi ve Makale Yerleşimleri
+   ========================================================================== */
+
+#blog-post {
+  padding: 60px 0 80px;
+}
+
+.blog-content {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.blog-header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 25px;
+}
+
+.blog-header h1 {
+  font-size: 2.6rem;
+  color: var(--text-dark);
+  line-height: 1.25;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.blog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.blog-content h2 {
+  font-size: 1.85rem;
+  color: var(--text-dark);
+  margin-top: 45px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.blog-content h3 {
+  font-size: 1.4rem;
+  color: var(--text-dark);
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.blog-content p {
+  margin-bottom: 22px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.blog-content .author-note {
+  margin: 35px 0;
+  padding: 20px 24px;
+  background-color: var(--background-dark);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 1rem;
+  border-top: 1px solid var(--border-light);
+  border-right: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.blog-content .author-note p {
+  margin-bottom: 0;
+}
+
+.blog-content ul, .blog-content ol {
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.blog-content li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.image-placeholder {
+  text-align: center;
+  margin: 40px 0;
+  padding: 15px;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  background-color: var(--card-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+.image-placeholder img {
+  border-radius: 8px;
+  margin: 0 auto 12px;
+}
+
+.image-placeholder figcaption {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 35px 0;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+}
+
+.blog-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.blog-table th, 
+.blog-table td {
+  border: 1px solid var(--border-light);
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.blog-table th {
+  background-color: var(--background-dark);
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.blog-table tbody tr:nth-child(even) {
+  background-color: var(--background-dark);
+}
+
+@media (max-width: 768px) {
+  .blog-header h1 {
+    font-size: 2rem;
+  }
+  .blog-content h2 {
+    font-size: 1.5rem;
+  }
+}
